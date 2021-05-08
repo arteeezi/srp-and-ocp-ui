@@ -1,4 +1,4 @@
-import { TodoTask, TodoMeeting } from './../..//components';
+import { TodoTask, TodoMeeting } from './../../components';
 import { isTodoMeeting, TTodo } from './../../domain';
 
 type TTodoItemFactoryProps = {
