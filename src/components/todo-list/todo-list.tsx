@@ -14,11 +14,13 @@ export const TodoList = (props: TTodoListProps): JSX.Element => {
         */
 
         setTodos([{
-            text: 'Встреча с Мишей в 17:30',
-            type: TodoTypesEnum.MEETING
+            text: 'обсуждение нового проекта',
+            type: TodoTypesEnum.MEETING,
+            time: '17:30'
         }, {
             text: 'Реализовать вывод списка',
-            type: TodoTypesEnum.TASK
+            type: TodoTypesEnum.TASK,
+            storyPoint: 1
         }])
     }, [])
 
